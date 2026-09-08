@@ -1,0 +1,56 @@
+Topic : DevSecOps
+
+what is DevSecOps : DevSecOps means interating securrity controls throughtout the software development lifecycle (SDLC) instead of treating security as a final manual stage.
+The goal is to detect issues early, automate security checks, enforce policies in CI/CD and continuously monitoring production.
+
+
+what DevSecOps in daily at work.
+
+Integrates security into development.
+perform SAST (static Application Security Testin )
+Perform SCA (software Composition Analysis)
+Scan secrets leakage
+secure IAC
+scan container images.
+Perform DAST ( Dyanamic application security Testing)
+Automates Security checks in CI/CD.
+Enforce Secuity Gates.
+Monitors applications and infrastructure
+Manages vulnerabilties.
+Implements Security as a Shared Responsibility.
+Code Quality check.
+Code smells check.
+CI/CD scanning.
+
+
+Tools and Techs used by DevSecOps.
+Secure code : SonarQube, Checkmarx
+scan dependencies and libraries : OWASP Dependency check, snyk
+detect Secrets : Gitleaks, Gitgurdian
+scan IaC : Trivy, checkov
+Test Running Application : OWASP ZAP, Burp Suite
+Automate Security Check : Github Actions, GitLab CI/CD, Jenkins
+Scan container images : Trivy, Grype
+Block insecure Deployment : SonarQube Quality Gates, OPA ( open Policy Agent)	
+Monitoring Production Security : Falco
+Mange vulnerabilities : synk, DefectDojo
+
+
+Main Tools : SonarQube, Trivy, OWASP, gitleaks, Falco
+
+
+Core Conepts:
+Shift left Security
+Shift Right Security
+Defense in Depth
+Least Privilege
+Zero Trust
+Security Gates
+Risk Managment
+Thread Modeling
+Attack surface
+CIA : Confidentiality Integrity Availability.
+
+
+
+
